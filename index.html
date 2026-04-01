@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done Delivery | مع تم لا تاكل هم</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/all.min.css">
+    <style>
+        :root {
+            /* درجة الأخضر المطابقة تماماً لعلامة الصح في اللوغو */
+            --brand-green: #28a745; 
+            --dark-text: #1a1a1a;
+        }
+
+        body {
+            background-color: var(--brand-green);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+
+        .profile-img {
+            width: 130px; 
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid white;
+            background: white; 
+            margin-bottom: 20px;
+            object-fit: contain;
+            padding: 5px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        h1 { 
+            font-size: 28px; 
+            margin: 5px 0; 
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        /* تنسيق العبارة "مع تم لا تاكل هم" */
+        .tagline { 
+            font-size: 20px; 
+            color: white; 
+            margin-bottom: 35px;
+            font-weight: 600;
+            background: rgba(0, 0, 0, 0.15); /* خلفية خفيفة جداً لتبرز العبارة */
+            padding: 8px 20px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .links-container { width: 100%; max-width: 380px; }
+
+        .link-item {
+            background: white; 
+            border-radius: 15px;
+            padding: 16px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--dark-text);
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .link-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        /* الأيقونات الرسمية الملونة */
+        .link-item i {
+            font-size: 26px;
+            margin-left: 15px;
+            width: 35px;
+            text-align: center;
+        }
+
+        .fa-facebook { color: #1877f2; }
+        .fa-instagram { color: #e4405f; }
+        .fa-whatsapp { color: #25d366; }
+
+        .link-item span {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .footer { 
+            margin-top: auto; 
+            padding-top: 30px; 
+            font-size: 12px; 
+            color: rgba(255,255,255,0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <img src="20260326_010752.jpg" alt="Done Delivery" class="profile-img">
+
+    <h1>Done Delivery</h1>
+    
+    <div class="tagline">مع تَـــــمّ ، لا تاكل هَـــــمّ ✅</div>
+
+    <div class="links-container">
+        <a href="https://www.facebook.com/share/1KigG4MfwV/" class="link-item" target="_blank">
+            <i class="fab fa-facebook"></i>
+            <span>تابعنا على فيسبوك</span>
+        </a>
+
+        <a href="https://www.instagram.com/done._.delivery?igsh=czNsNXI5dTJ2MHB4" class="link-item" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>تابعنا على انستغرام</span>
+        </a>
+
+        <a href="https://whatsapp.com/channel/0029VbCioOJFCCoWIqIMAb3l" class="link-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>قناة الواتساب الرسمية</span>
+        </a>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Done Delivery
+    </div>
+
+</body>
+</html>
